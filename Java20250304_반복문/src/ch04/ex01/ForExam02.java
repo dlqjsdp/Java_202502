@@ -14,6 +14,7 @@ public class ForExam02 {
 		}
 		
 		System.out.println("sum = " + sum);
+		
 	}
 
 }
