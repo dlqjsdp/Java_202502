@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class ForExam04_배열05 {
 
 	public static void main(String[] args) {		
-		//7명 점수를 입력 받아서, 총점과 평균을 구하기
 		
+		//7명 점수를 입력 받아서, 총점과 평균을 구하기		
 		Scanner sc = new Scanner(System.in);
 		//예시>> int num = 0;
 		int[] student = new int[]{10,-3,-700,1,2,9,3}; //원래는 0이었던 방에 미리 숫자를 입력하는 의미
