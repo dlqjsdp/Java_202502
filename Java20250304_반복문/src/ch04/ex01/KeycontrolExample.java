@@ -13,7 +13,7 @@ public class KeycontrolExample {
 		
 		while(run) {
 			System.out.println("---------------------");
-			System.out.println("1. 증속 | 2. 감속 | 3. 중지");
+			System.out.println("1.증속 | 2.감속 | 3.중지");
 			System.out.println("---------------------");
 			System.out.println("선택: ");
 			
