@@ -10,6 +10,9 @@ public class PersonMain {
 		//메소드 호출해서 출력		
 		Person person 
 		= new Person("김대철", 50, "010-3380-6423");
+		
+//		person.age = 20; (The field Person.age is not visible)
+//		Person.java에서 private int age;로 막아서
 
 		person.나이출력();
 		person.이름출력();
