@@ -1,0 +1,46 @@
+package ex09;
+
+class GradeExpr {
+    private int[] jumsu;
+
+    // 생성자: 전달받은 jumsu 배열을 멤버 변수에 할당
+    public GradeExpr(int[] jumsu) {
+        this.jumsu = jumsu;
+    }
+
+    // 총점 계산
+    public int getTotal() {
+        int total = 0;
+        for (int score : jumsu) {
+            total += score;
+        }
+        return total;
+    }
+
+    // 평균 계산
+    public double getAverage() {
+        return (double) getTotal() / jumsu.length;
+    }
+
+    // 최고 점수 찾기
+    public int getGoodScore() {
+        int max = jumsu[0];
+        for (int score : jumsu) {
+            if (score > max) {
+                max = score;
+            }
+        }
+        return max;
+    }
+
+    // 최저 점수 찾기
+    public int getBadScore() {
+        int min = jumsu[0];
+        for (int score : jumsu) {
+            if (score < min) {
+                min = score;
+            }
+        }
+        return min;
+    }
+}

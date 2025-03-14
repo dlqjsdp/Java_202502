@@ -1,0 +1,19 @@
+package ch01.ex06;
+
+public class Account {
+	static int MIN_BALANCE = 0;
+	static int MAX_BALANCE = 1000000;
+	private int balance;
+	
+	int getBalance() {
+		return balance;
+	}
+	
+	void setBalance(int balance) {
+		if(balance>Account.MAX_BALANCE||balance<Account.MAX_BALANCE)
+			return;
+		this.balance = balance;		
+	}
+	
+
+}

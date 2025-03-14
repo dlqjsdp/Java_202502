@@ -1,0 +1,16 @@
+package ch01.ex07;
+
+public class AccountMain {
+
+	public static void main(String[] args) {
+		
+		Account account = new Account();
+		Account account1 = new Account();
+		Account account2 = new Account();
+		Account account3 = new Account();
+		
+	}
+
+}
+
+

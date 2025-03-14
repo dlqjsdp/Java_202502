@@ -1,0 +1,10 @@
+package ch01.ex01;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		C c1 = new C("지리산", "전북 남원", 40);
+	}
+
+}

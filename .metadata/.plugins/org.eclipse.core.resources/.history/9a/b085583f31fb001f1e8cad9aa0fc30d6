@@ -1,0 +1,16 @@
+package ch06.sec07.exam07;
+
+public class Member {
+	
+	//필드
+	private String name;
+	private String id;
+	private String password;
+	private int age;
+	
+	Member(String name, String id){
+		this.name = name;
+		this.id = id;
+	}
+
+}

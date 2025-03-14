@@ -1,0 +1,13 @@
+package ch01.ex01;
+
+public class Car {
+	
+	private String company;
+	private String model;
+	private String color;
+	private int maxSpeed;
+	
+	public void run() {
+		System.out.println(company + "달린다.");
+	}
+}

@@ -1,0 +1,29 @@
+package ch01.ex02;
+
+public class CarMain {
+
+	public static void main(String[] args) {
+		
+		
+		//정적 메소드를 객체 생성하지 않고,
+		//클래스명, 정적 메소드명 실행 가능
+		Car.runState();
+		
+		/*
+		 * Car car1 = new Car(); 
+		 * //public Car() {} 실행 
+		 * car1.displayInfo();
+		 * car1.runState(); 
+		 * System.out.println();
+		 * 
+		 * Car car2 = new Car("기아", "K5", "흰색", 200); 
+		 * //public Car(String company,String model, String color, int maxSpeed) 실행 
+		 * car2.displayInfo();
+		 * car2.runState(); 
+		 * System.out.println();
+		 */
+
+		
+	}
+
+}

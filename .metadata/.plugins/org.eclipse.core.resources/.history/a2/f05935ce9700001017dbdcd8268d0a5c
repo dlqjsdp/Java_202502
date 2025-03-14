@@ -1,0 +1,21 @@
+package ex05;
+
+public class GuGuDanExpr extends Multiplication {
+	
+	public GuGuDanExpr() {
+		
+	}
+	
+	public GuGuDanExpr(int dan){
+		super(dan);
+	}
+	
+	public GuGuDanExpr(int dan, int number){
+		super(dan, number);
+	}
+	
+	public static void printAll() {
+		
+	}
+
+}

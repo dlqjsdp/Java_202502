@@ -1,0 +1,28 @@
+package ch01.ex02;
+/*
+ * ### 상속 전체 조건 ###
+ * 하위클래스는 상위클래스 자원 접근 가능(private 제외)
+ * 상위클래스는 하위클래스 접근 불가
+ */
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		A a1 = new A();
+		a1.test();
+		
+		B b1 = new B();
+		b1.test(); //b에 있는 test 먼저 출력
+		
+		C c1 = new C();
+		c1.test(); //c에 있는 test 먼저 출력
+		
+		System.out.println("------------------------");
+		
+		A a2 = new C();
+		a2.test();
+		
+	}
+
+}

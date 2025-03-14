@@ -1,0 +1,27 @@
+package ch01.ex01;
+
+public class A {
+	String name;
+	
+	A(String name){
+		this.name = name;
+	}
+}
+
+class B extends A{
+	String address;
+	
+	B(String n2, String address){
+		super(n2);
+		this.address = address;
+	}
+}
+
+class C extends B{
+	int age;
+	
+	C(String n, String a, int age){
+		super(n, a);
+		this.age = age;
+	}
+}

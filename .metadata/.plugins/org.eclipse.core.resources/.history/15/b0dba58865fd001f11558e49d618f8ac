@@ -1,0 +1,28 @@
+package ch01.ex01;
+
+
+class A {
+	String name;
+	int age;
+	void run() {
+		System.out.println("run()");
+	}
+	void eat() {
+		System.out.println("eat()");
+	}
+}
+
+
+//B클래스가 상위클래스인 A 클래스를 상속하겠다.
+class B extends A{ 
+	String id;
+}
+
+public class Main {
+
+	public static void main(String[] args) {
+		B b = new B();
+		b.
+	}
+
+}

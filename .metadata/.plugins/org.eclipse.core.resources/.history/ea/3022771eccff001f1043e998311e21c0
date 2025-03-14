@@ -1,0 +1,21 @@
+package ex03;
+
+public class MainPerson {
+
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		Student s1 = new Student();
+		UniversityStudent u1 = new UniversityStudent();
+		
+		method(p1);
+		method(s1);		
+		method(u1);
+		
+	}
+	
+	static void method(Person p) {
+		p.sleep();
+		
+	}
+
+}

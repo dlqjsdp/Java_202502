@@ -1,0 +1,14 @@
+package ex07;
+
+public class ProductTest {
+
+	public static void main(String[] args) {
+
+		
+		Product[] product = new Product[5];
+		
+		product[0] = new Product();
+		
+	}
+
+}
