@@ -11,8 +11,9 @@
     <fullyQualifiedTypeName name="ch01.ex01.B"/>
     <fullyQualifiedTypeName name="ex03.UniversityStudent"/>
     <fullyQualifiedTypeName name="cho7.sec10.exam01.SmartPhone"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ex05.GuGuDanApp"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="ex05.GuGuDanExpr"/>
+    <fullyQualifiedTypeName name="java.lang.CharSequence"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
