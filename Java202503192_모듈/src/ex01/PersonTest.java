@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter  //setter
 @Getter  //getter
 @NoArgsConstructor  //디폴트생성자 -> 기본생성자 Person(){}를 만들지 않아도 된다.
-@AllArgsConstructor
+@AllArgsConstructor //모든 값을 가지는 생성자
 class Person {
 	private String name;
 	private int age;
