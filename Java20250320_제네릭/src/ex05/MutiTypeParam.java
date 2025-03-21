@@ -34,6 +34,25 @@ class DBox<L,R>{
 	
 }
 
+/*
+ class DBox<String,Integer>{
+	private String left;
+	private Integer right;
+	
+	public void set(String left, Integer right) {
+		this.left = left;
+		this.right = right;
+	}
+	
+	@Override
+	public String toString() {
+		return left + " & " + right;
+	}
+	
+}
+ 
+ */
+
 class Person{}
 
 
@@ -51,7 +70,10 @@ public class MutiTypeParam {
 //		pBox.set(new Person, "한국인"); 을 입력하려면 어떻게 바꿔야될까?
 		DBox<Person, String> pBox = new DBox<>(); 
 //		DBox<Person, Integer> iBox = new DBox<String, Integer>(); 과 동일
-		pBox.set(new Person(), "한국인");
+//		pBox.set(new Person(), "한국인");
+		
+		Person p = new Person();
+		pBox.set(p, "AAA");
 		
 	}
 

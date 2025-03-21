@@ -1,5 +1,7 @@
 package ex02;
 
+import lombok.Getter;
+import lombok.Setter;
 
 class Apple{
 	@Override
@@ -17,19 +19,16 @@ class Orange{
 
 
 class Box{
-	private Object Obj;
+	private Object obj;
 
 	public Object getObj() {
-		return Obj;
+		return obj;
 	}
 
-	public void setObj(Object Obj) {
-		this.Obj = Obj;
-	}	
+	public void setObj(Object obj) {
+		this.obj = obj;
+	}
 }
-
-
-
 
 public class 제네릭이해 {
 
@@ -42,10 +41,10 @@ public class 제네릭이해 {
 		oBox.setObj(new Orange());
 		
 		Apple ap = (Apple)aBox.getObj();
-		Orange op = (Orange)aBox.getObj();
+		Orange op = (Orange)oBox.getObj();
 		
-		
-
+		System.out.println(ap);
+		System.out.println(op);
 	}
 
 }

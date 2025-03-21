@@ -28,6 +28,36 @@ class Box<T>{
 	}	
 }
 
+/*
+ * 
+ class Box<Apple>{
+	private Apple Obj;
+
+	public Apple getObj() {
+		return Obj;
+	}
+
+	public void setObj(Apple Obj) {
+		this.Obj = Obj;
+	}	
+}
+ */
+
+/*
+ * 
+ class Box<Orange>{
+	private Orange Obj;
+
+	public Orange getObj() {
+		return Obj;
+	}
+
+	public void setObj(Orange Obj) {
+		this.Obj = Obj;
+	}	
+}
+ */
+
 
 public class 제네릭이해 {
 

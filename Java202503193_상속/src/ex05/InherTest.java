@@ -1,5 +1,12 @@
 package ex05;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
 class A{
 	
 	public A() {
@@ -19,10 +26,16 @@ class A{
 
 }
 
+@Getter
+@Setter
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 class B extends A{
-	public B() {
-	}
-
+	String name;
+	int age;
+	
+	
 	void funcB() {
 		System.out.println("funcB()");
 	}
@@ -30,7 +43,6 @@ class B extends A{
 	void funcC() {
 		System.out.println("funcC()_B");
 	}
-	
 }
 
 public class InherTest {
@@ -49,6 +61,9 @@ public class InherTest {
 		
 		a1.funcB();
 		a2.funcB();
+		
+		B b3 = new B("AAA",20);
+		System.out.println(b3.toString());
 	}
 
 }
