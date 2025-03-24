@@ -7,7 +7,18 @@ import java.util.Set;
 public class SetExam01 {
 
 	public static void main(String[] args) {
-
+		
+		Set<Integer> lst = new HashSet<Integer>();
+		lst.add(10);
+		lst.add(10);
+		lst.add(20);
+		lst.add(10);
+		lst.add(40);
+		
+		for(Integer i : lst)
+			System.out.println(i);
+		System.out.println();
+		
 		Set<String> list = new HashSet<String>();
 		
 		list.add("Robot");
