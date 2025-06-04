@@ -46,4 +46,7 @@
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ex07.Printable"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
 </qualifiedTypeNameHistroy>
